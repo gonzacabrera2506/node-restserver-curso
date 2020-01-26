@@ -1,16 +1,31 @@
 {
   "name": "restserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "Recuerden instalar ```npm install``` par las librerias",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzacabrera2506/node-restserver-curso.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzacabrera2506/node-restserver-curso/issues"
+  },
+  "homepage": "https://github.com/gonzacabrera2506/node-restserver-curso#readme",
   "dependencies": {
+    "bcrypt": "^3.0.4",
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
